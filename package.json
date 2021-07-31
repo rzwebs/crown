@@ -2,13 +2,10 @@
   "name": "crown",
   "version": "1.0.0",
   "description": "crown money app",
-  "homepage": "https://rzwebs.github.io/",
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
-    "dev": "nodemon app.js HTTPS=true",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "dev": "nodemon app.js HTTPS=true"
   },
   "author": " <ramazanov.web@gmail.com>",
   "license": "ISC",
